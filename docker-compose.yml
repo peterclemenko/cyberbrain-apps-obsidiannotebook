@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  db_graphql:
+  postgres_db_apps_obsidiannotebook_cyberbrain_graphql_gateway:
     image: postgres:16-alpine
     env_file:
       - envs/.env
